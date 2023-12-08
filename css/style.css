@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+	margin-inline: 0;
+	margin-block: 0;
+    list-style-position: inside;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+p a:hover{
+    font-weight: 900;
+    color: rgb(0, 140, 255);
+    font-size: 25px;
+}
+
+div a:hover{
+    background-color: red;
+    color: black;
+}
+
+nav{
+	position: fixed;
+	white-space: nowrap;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+	padding: 0;
+	font-weight: 900;
+	width: 100%;
+}
+
+nav a{
+    color: black;
+	padding: 15px 5px 15px 5px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav a:active{
+    color: rgb(0, 140, 255);
+}
+
+#nav2{
+	border-top: solid;
+    border-color: black;
+}
+
+.nava2{
+    padding: 5px 5px 5px 5px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article{
+    flex-basis: calc(100% / 2 - 40px);
+}
+
+div{
+    font-weight: 900;
+}
+
+.chpage{
+	display: flex;
+    justify-content: center;
+    border: solid;
+	border-radius: 15px;
+    width: 80%;
+	padding: 5px 100px;
+    margin: 0px auto;
+    
+}
+
+.p{
+    margin-inline: 20%;
+}
+
+ul{
+    display: inline-block;
+    margin-inline: 15%;
+}
+
+.footer{
+    font-size: 70%;
+}
+
+footer a#mail:hover{
+    font-size: larger;
+}
